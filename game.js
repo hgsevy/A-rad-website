@@ -1,13 +1,14 @@
 var r, b, g;
 
 function setup(){
-  createImg('hiclipart.com.png', 'Chameleon photo');
+  img = loadImage('hiclipart.com.png');
   background(163, 129, 83);
   r = 163;
   g = 129;
   b = 83;
   fill(255);
   ellipse(590, 400, 100, 100);
+  image(img, 0, 0);
 }
 
 function draw(){
