@@ -1,7 +1,10 @@
 var r, b, g;
 
-function setup(){
+function preload(){
   img = loadImage('hiclipart.com.png');
+}
+
+function setup(){
   createCanvas(800, 800);
   background(163, 129, 83);
   r = 163;
