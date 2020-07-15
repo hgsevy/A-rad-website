@@ -2,6 +2,7 @@ var r, b, g;
 
 function setup(){
   img = loadImage('hiclipart.com.png');
+  createCanvas(800, 800);
   background(163, 129, 83);
   r = 163;
   g = 129;
