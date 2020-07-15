@@ -1,14 +1,13 @@
 var r, b, g;
 
 function setup(){
-  createCanvas(800, 800);
+  createImg('hiclipart.com.png', 'Chameleon photo');
   background(163, 129, 83);
   r = 163;
   g = 129;
   b = 83;
   fill(255);
   ellipse(590, 400, 100, 100);
-  createImg('https://p7.hiclipart.com/preview/342/1008/947/chameleons-espio-the-chameleon-drawing-coloring-book-black-and-white-figure.jpg', 'Chameleon photo');
 }
 
 function draw(){
