@@ -1,8 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&family=Sniglet&display=swap');
+
 .nav{
-  background-color: green;
+  background-color: rgb(69, 194, 19);
   text-align: center;
+}
+
+h1{
+  font-family: 'Sniglet', cursive;
 }
 
 a{
   color: black;
+  font-family: 'Raleway', sans-serif;
 }
+
+
