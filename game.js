@@ -14,9 +14,10 @@ function setup(){
 function draw(){
   stroke(0);
   fill(255);
-  rect(100, 50, 100, 50);
+  rect(50, 50, 205, 50);
   textSize(32);
-  text("Change color", 110, 60);
+  fill(0);
+  text("Change color", 60, 75);
   r = random(0, 255);
   g = random(0, 255);
   b = random(0, 255);
