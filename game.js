@@ -7,7 +7,7 @@ function setup(){
   g = 129;
   b = 83;
   fill(255);
-  ellipse(590, 400, 50, 50);
+  ellipse(590, 400, 100, 100);
   createImg('https://p7.hiclipart.com/preview/342/1008/947/chameleons-espio-the-chameleon-drawing-coloring-book-black-and-white-figure.jpg', 'Chameleon photo');
 }
 
