@@ -51,7 +51,7 @@ function draw(){
     }
   }
   
-  if(mouseX < 400 && mouseX > 365 && mouseY < 220 && mouseY > 180){
+  if(mouseX < 45 && mouseX > 0 && mouseY < 220 && mouseY > 180){
     fill(230);
     noStroke();
     rect(0, 180, 45, 40);
