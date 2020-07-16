@@ -8,16 +8,16 @@ function preload(){
   myImg3 = loadImage("IMG_20200622_155245501_HDR.jpg");
   myImg4 = loadImage("IMG_20200707_162112105_HDR.jpg");
   myImg5 = loadImage("IMG_20200709_175335461.jpg");
-  x1 = -400;
-  x2 = 0;
-  x3 = 400;
-  x4 = 800;
-  x5 = 1200;
 }
 
 function setup(){
   createCanvas(400, 400);
   background(200);
+  x1 = -400;
+  x2 = 0;
+  x3 = 400;
+  x4 = 800;
+  x5 = 1200;
 }
 
 function draw(){
@@ -35,9 +35,10 @@ function draw(){
   line(15, 200, 30, 215);
   
   if(mouseX < 400 && mouseX > 355 && mouseY < 220 && mouseY > 180){
-    fill(230);
+    fill(250);
     noStroke();
     rect(355, 180, 45, 40);
+    stroke(0);
     strokeWeight(5);
     line(385, 200, 370, 185);
     line(385, 200, 370, 215);
