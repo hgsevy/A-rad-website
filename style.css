@@ -13,7 +13,7 @@ h1{
   font-family: 'Sniglet', cursive;
 }
 
-a{
+a, p, li, td, th{
   color: black;
   font-family: 'Raleway', sans-serif;
 }
