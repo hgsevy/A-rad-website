@@ -5,14 +5,14 @@ function preload(){
 }
 
 function setup(){
-  createCanvas(1000, 800);
+  createCanvas(800, 700);
   background(163, 129, 83);
   r = 163;
   g = 129;
   b = 83;
   fill(255);
-  ellipse(665, 377, 115, 115);
-  image(img, -80, -100);
+  ellipse(665, 277, 115, 115);
+  image(img, -80, -110);
 }
 
 function draw(){
@@ -30,8 +30,8 @@ function draw(){
       background(r, g, b);
       
       fill(255);
-      ellipse(665, 377, 115, 115);
-      image(img, -80, -100);
+      ellipse(665, 277, 115, 115);
+      image(img, -80, -110);
     }
   }
 }
