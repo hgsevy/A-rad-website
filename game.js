@@ -5,13 +5,13 @@ function preload(){
 }
 
 function setup(){
-  createCanvas(800, 800);
+  createCanvas(1000, 800);
   background(163, 129, 83);
   r = 163;
   g = 129;
   b = 83;
   fill(255);
-  ellipse(590, 400, 100, 100);
+  ellipse(615, 450, 100, 100);
   image(img, 0, 0);
 }
 
@@ -22,12 +22,16 @@ function draw(){
   textSize(32);
   fill(0);
   text("Change color", 60, 80);
-  r = random(0, 255);
-  g = random(0, 255);
-  b = random(0, 255);
   if (mouseIsPressed) {
     if (mouseX > 100 && mouseX < 200 && mouseY > 50 && mouseY < 100) {
+      r = random(0, 255);
+      g = random(0, 255);
+      b = random(0, 255);
       background(r, g, b);
+      
+      fill(255);
+      ellipse(615, 450, 100, 100);
+      image(img, 0, 0);
     }
   }
 }
