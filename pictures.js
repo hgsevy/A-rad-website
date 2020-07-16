@@ -28,13 +28,16 @@ function draw(){
   image(myImg5, x5, 0, 400, 400);
   
   fill(255);
+  strokeWeight(5);
   line(385, 200, 370, 185);
   line(385, 200, 370, 215);
   
   if(mouseX < 400 && mouseX > 355 && mouseY < 220 && mouseY > 180){
     fill(50, 50, 50, 0.5);
+    noStroke();
     rect(355, 180, 45, 40);
     fill(255);
+    strokeWeight(5);
     line(385, 200, 370, 185);
     line(385, 200, 370, 215);
     if(mouseIsClicked){
@@ -47,13 +50,16 @@ function draw(){
   }
   
   fill(255);
+  strokeWeight(5);
   line(15, 200, 30, 185);
   line(15, 200, 30, 215);
   
   if(mouseX < 400 && mouseX > 365 && mouseY < 220 && mouseY > 180){
     fill(50, 50, 50, 0.5);
+    noStroke();
     rect(0, 180, 45, 40);
     fill(255);
+    strokeWeight(5);
     line(15, 200, 30, 185);
     line(15, 200, 30, 215);
     if(mouseIsClicked){
