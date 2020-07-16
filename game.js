@@ -21,9 +21,9 @@ function draw(){
   rect(50, 50, 205, 50, 20);
   textSize(32);
   fill(0);
-  text("Change color", 60, 80);
+  text("Change color", 58, 84);
   if (mouseIsPressed) {
-    if (mouseX > 100 && mouseX < 200 && mouseY > 50 && mouseY < 100) {
+    if (mouseX > 50 && mouseX < 255 && mouseY > 50 && mouseY < 100) {
       r = random(0, 255);
       g = random(0, 255);
       b = random(0, 255);
