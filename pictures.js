@@ -42,7 +42,7 @@ function draw(){
     strokeWeight(5);
     line(385, 200, 370, 185);
     line(385, 200, 370, 215);
-    if(mouseIsPressed){
+    if(mouseClicked){
       x1 -= 400;
       x2 -= 400;
       x3 -= 400;
@@ -52,13 +52,14 @@ function draw(){
   }
   
   if(mouseX < 45 && mouseX > 0 && mouseY < 220 && mouseY > 180){
-    fill(230);
+    fill(250);
     noStroke();
     rect(0, 180, 45, 40);
+    stroke(0);
     strokeWeight(5);
     line(15, 200, 30, 185);
     line(15, 200, 30, 215);
-    if(mouseIsPressed){
+    if(mouseClicked){
       x1 += 400;
       x2 += 400;
       x3 += 400;
