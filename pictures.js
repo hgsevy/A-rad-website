@@ -34,6 +34,7 @@ function draw(){
   image(myImg5, x5, 0, 400, 400);
   
   strokeWeight(5);
+  stroke(0);
   line(385, 200, 370, 185);
   line(385, 200, 370, 215);
   
