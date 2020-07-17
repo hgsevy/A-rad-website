@@ -11,7 +11,7 @@ function setup(){
   g = 129;
   b = 83;
   fill(255);
-  ellipse(665, 277, 115, 115);
+  ellipse(665, 277, 115, 116);
   image(img, -80, -200);
 }
 
@@ -30,7 +30,7 @@ function draw(){
       background(r, g, b);
       
       fill(255);
-      ellipse(665, 277, 115, 115);
+      ellipse(665, 277, 115, 116);
       image(img, -80, -200);
     }
   }
