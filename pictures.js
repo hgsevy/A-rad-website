@@ -1,6 +1,6 @@
 var myImg1, myImg2, myImg3, myImg4, myImg5;
 var x1, x2, x3, x4, x5;
-//var img1, img2, img3, img4, img5
+var img1, img2, img3, img4;
 
 function preload(){
   myImg1 = loadImage("IMG_20200515_102815702.jpg");
@@ -8,16 +8,22 @@ function preload(){
   myImg3 = loadImage("IMG_20200622_155245501_HDR.jpg");
   myImg4 = loadImage("IMG_20200707_162112105_HDR.jpg");
   myImg5 = loadImage("IMG_20200709_175335461.jpg");
+  
+  img1 = loadImage("Nps_lizard1.jpg");
+  img2 = loadImage("nps_lizard2.jpg");
+  img3 = loadImage("nps_lizard3.jpg");
+  img4 = loadImage("nps_lizard4.jpg");
 }
 
 function setup(){
-  createCanvas(400, 400);
-  background(200);
+  createCanvas(400, 1000);
+  background(255);
   x1 = -400;
   x2 = 0;
   x3 = 400;
   x4 = 800;
   x5 = 1200;
+  frameRate(50);
 }
 
 function draw(){
@@ -67,6 +73,15 @@ function draw(){
       x5 += 400;
     }
   }
+  
+  noStroke();
+  fill(255);
+  rect(400, 0, 600, 400);
+  
+  image(img1, 600, 0, 200, 200);
+  image(img2, 800, 0, 200, 200);
+  image(img3, 600, 200, 200, 200);
+  image(img4, 800, 200, 200, 200);
   
   if(x1 == -800){
     x1 = 1200;
